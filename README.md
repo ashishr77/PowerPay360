@@ -32,6 +32,8 @@ PowerPay360 is a Java-based backend system built using **Spring Boot**, designed
 PowerPay360/
 ├── Controller/
 │   └── BillDetailsController.java
+├── Repository/
+│   └── BillDetailsRepository.java
 ├── Entity/
 │   ├── BillDetails.java
 │   └── GenerateBillRequest.java
