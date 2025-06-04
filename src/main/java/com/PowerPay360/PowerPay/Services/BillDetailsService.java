@@ -2,7 +2,7 @@ package com.PowerPay360.PowerPay.Services;
 
 import com.PowerPay360.PowerPay.Entity.BillDetails;
 import com.PowerPay360.PowerPay.Entity.GenerateBillRequest;
-import com.PowerPay360.PowerPay.Repository.BillDetailsRepositoy;
+import com.PowerPay360.PowerPay.Repository.BillDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,9 +15,9 @@ import java.util.Random;
 public class BillDetailsService {
 
     @Autowired
-    private BillDetailsRepositoy billDetailsRepository;
+    private BillDetailsRepository billDetailsRepository;
 
-    public BillDetailsService(BillDetailsRepositoy billDetailsRepositoy) {
+    public BillDetailsService(BillDetailsRepository billDetailsRepositoy) {
         this.billDetailsRepository = billDetailsRepository;
     }
     public List<BillDetails> getBillDetails(String serviceRequestNo) {
