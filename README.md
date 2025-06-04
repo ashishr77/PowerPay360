@@ -10,7 +10,7 @@ PowerPay360 is a Java-based backend system built using **Spring Boot**, designed
 - 💳 **Make Payments** securely by bill ID and amount  
 - 🧾 **Generate New Bills** dynamically using structured request  
 - 🌐 REST API endpoints for seamless integration  
-- 🧪 Easily testable using Postman or Swagger  
+- 🧪 Easily testable using Postman
 
 ---
 
@@ -21,7 +21,8 @@ PowerPay360 is a Java-based backend system built using **Spring Boot**, designed
 - **Spring Web**
 - **Maven**
 - **REST API**
-- (Add other technologies you use like MySQL, JPA, etc.)
+- **MySQL**
+- **Spring Data JPA**
 
 ---
 
